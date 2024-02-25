@@ -20,7 +20,7 @@ public class App {
         System.out.println("1. List books");
         System.out.println("2. Add book");
         System.out.println("3. Exit");
-        switch (getIntInput("Enter choice", 3)) {
+        switch (getIntInput(3)) {
             case 1:
                 listBooks();
                 break;
@@ -55,11 +55,15 @@ public class App {
             System.err.println("Failed to list books: " + e.getMessage());
             return;
         }
+        if(books.isEmpty()) {
+            System.out.println("No books found");
+            return;
+        }
         for(int i = 0; i < books.size(); i++) {
             System.out.println((i + 1) + ". " + books.get(i).getTitle() + " by " + books.get(i).getAuthor());
         }
         System.out.println(books.size() + 1 + ". Back");
-        int choice = getIntInput("Enter choice", books.size() + 1);
+        int choice = getIntInput(books.size() + 1);
         if(choice == books.size() + 1)
             return;
         Book book;
@@ -72,7 +76,7 @@ public class App {
         System.out.println("1. Edit");
         System.out.println("2. Delete");
         System.out.println("3. Back");
-        switch (getIntInput("Enter choice", 3)) {
+        switch (getIntInput(3)) {
             case 1:
                 editBook(book);
                 break;
@@ -104,11 +108,11 @@ public class App {
         }
     }
 
-    private int getIntInput(String prompt, int max) {
+    private int getIntInput(int max) {
         Scanner scanner = new Scanner(System.in);
         int input;
         while(true) {
-            System.out.println(prompt);
+            System.out.println("Enter choice");
             input = scanner.nextInt();
             if(input > 0 && input <= max)
                 return input;
