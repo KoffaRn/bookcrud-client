@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="975b5409-b589-46fa-8af6-6de41aac9cb8" name="Changes" comment="intial commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/koffa/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/koffa/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/koffa/helper/BookResponseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/koffa/helper/ListBookResponseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/koffa/helper/PasswordGetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/koffa/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/koffa/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/koffa/service/HttpBookService.java" afterDir="false" />
-    </list>
+    <list default="true" id="975b5409-b589-46fa-8af6-6de41aac9cb8" name="Changes" comment="intial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,8 +94,17 @@
       <workItem from="1708087003591" duration="664000" />
       <workItem from="1708531205892" duration="1392000" />
       <workItem from="1708591870483" duration="63000" />
-      <workItem from="1708859584385" duration="958000" />
+      <workItem from="1708859584385" duration="1320000" />
     </task>
+    <task id="LOCAL-00001" summary="intial commit">
+      <option name="closed" value="true" />
+      <created>1708860899258</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708860899258</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
